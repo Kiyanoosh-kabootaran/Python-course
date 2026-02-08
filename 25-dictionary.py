@@ -1,0 +1,54 @@
+# dictionary = acollection of {key:value} pairs
+# ordered and changeable. No duplicates
+
+capitals = {"USA": "Washington D.C.",
+            "India": "New Dehli",
+            "China": "Beiging",
+            "Russia": "Moscow"}
+
+#print(dir(capitals))
+#print(help(capitals))
+
+#print(capitals.get("Russia"))
+
+'''
+if capitals.get("Japan"):
+  print("That capital exists")
+else:
+  print("That capital doesn't exist")
+'''
+
+#capitals.update({"Germany": "Berlin"})
+#capitals.update({"USA": "New York"})
+#capitals.pop("China")
+#capitals.popitem()
+#capitals.clear()
+
+#print(capitals)
+
+
+#keys = capitals.keys()
+#print(keys)
+
+'''
+for key in capitals.keys():
+  print(key)
+'''
+
+
+#values = capitals.values()
+#print(values)
+
+'''
+for value in capitals.values():
+  print(value)
+'''
+
+
+#items = capitals.items()
+#print(items)
+
+'''
+for key, value in capitals.items():
+  print(f"{key}: {value}")
+'''

@@ -1,0 +1,30 @@
+# Python compund interest calculator works with zero
+
+principle = 0
+rate = 0
+time = 0
+
+while True :
+  principle = int(input("Enter the principle amount: "))
+  if principle < 0:
+    print("Time can't be less than zero")
+  else:
+    break
+
+while True :
+  rate = int(input("Enter the interest rate: "))
+  if principle < 0:
+    print("interest rate can't be less than zero")
+  else:
+    break
+
+while True :
+  time = int(input("Enter the time it years: "))
+  if time <= 0:
+    print("Time can't be less than zero")
+  else:
+    break
+
+total = principle * pow((1 + rate / 100) , time)
+print(f"Balance after {time} year/s: ${total:.2f}")
+  
