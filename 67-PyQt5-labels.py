@@ -1,4 +1,4 @@
-# PyQt5 introduction
+# PyQt5 Label
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel
 from PyQt5.QtGui import QIcon, QFont
